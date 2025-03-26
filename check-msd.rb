@@ -1,6 +1,6 @@
 # Microsoft Defender InSpec Control
 
-control 'microsoft_defender_running' do
+control 'microsoft_defender' do
   impact 1.0
   title 'Ensure Microsoft Defender is Installed and Running'
   desc 'This control checks if Microsoft Defender is installed and running on both Linux and Windows platforms. It ensures that the security software is active and protecting the system.'
